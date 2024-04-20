@@ -29,6 +29,14 @@ const HomeScreen = ({ navigation }) => {
                 onPress={() => navigation.navigate("Square")}
                 title="Go to Square Demo"
             />
+            <Button
+                onPress={() => navigation.navigate("Register")}
+                title="Go to Register Demo"
+            />
+            <Button
+                onPress={() => navigation.navigate("Register2")}
+                title="Go to Register2 Demo"
+            />
         </View>
     );
 };
