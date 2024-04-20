@@ -9,6 +9,7 @@ import ListScreen from "./src/screens/ListScreen";
 import RegisterForm from "./src/screens/RegisterForm";
 import RegisterForm_v2 from "./src/screens/RegisterForm_v2";
 import SquareScreen from "./src/screens/SquareScreen";
+import TextScreen from "./src/screens/TextScreen";
 
 const navigator = createStackNavigator(
     {
@@ -21,6 +22,7 @@ const navigator = createStackNavigator(
         Square: SquareScreen,
         Register: RegisterForm,
         Register2: RegisterForm_v2,
+        TextScreen: TextScreen,
     },
     {
         initialRouteName: "Home",
